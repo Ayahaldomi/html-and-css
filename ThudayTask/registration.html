@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise #2</title>
+    <style>
+        body{
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+<body>
+    <h1>registration form</h1>
+    <div style="border: solid black 1px;width: 60%;padding: 20px;">
+       <h3>personal details</h3>
+       <hr>
+       <form>
+        <label>first name :</label>
+        <input type="text" name="first-name"><br><br>
+        <label>last name :</label>
+        <input type="text" name="last-name"><br><br>
+        <label>email :</label>
+        <input type="email" name="email"><br><br>
+        <label>gender :</label>
+        <input type="radio" name="gender">
+        <label>male</label>
+        <input type="radio" name="gender">
+        <label>female</label><br><br>
+        <label>city :</label>
+        <input list="city">
+        <datalist id="city" >
+            <option value="Irbid" />
+            <option value="Amman" />
+            <option value="Zarqa" />
+            <option value="Mafraq" />
+            <option value="Ajloun" />
+            <option value="Jerash" />
+            <option value="Madaba" />
+            <option value="Balqa" />
+            <option value="Karak" />
+            <option value="Tafileh" />
+            <option value="Maan" />
+            <option value="Aqaba" />
+            
+        </datalist><br><br>
+        <input type="submit" value="Sign up">
+        
+       </form> 
+    </div>
+</body>
+</html>
